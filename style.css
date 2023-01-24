@@ -1,0 +1,388 @@
+header{
+	width: 100%;
+	height: 70px;
+	opacity: 0.75;
+	background-color: black;
+}
+
+*{
+	padding: 0;
+	margin:0;
+}
+
+.header_conteiner{
+	display: flex;
+	justify-content: space-between;
+	max-width: 1260px;
+	width: 100%;
+	z-index: 100;
+	color: white;
+	margin: 0 auto;
+	text-transform: uppercase;
+	padding: 15px;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+}
+
+.logo_text{
+	font-size: 30px;
+	font-family: 'Send Flowers', cursive;
+}
+
+.menu_text{
+	font-size: 14px;
+	font-family: 'Alegreya', serif;
+	align-items: baseline;
+}
+
+.intro{
+	height: 100vh;
+	width: 100%;
+	background: no-repeat  url("img1.png");
+	background-size: cover;
+}
+
+.intro_main_content{
+	margin: 0 auto;
+	width:100%;
+	height: 713px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 4%;
+}
+
+.intro_main_title{
+	color: white;
+	font-size: 92px;
+	font-family: 'Playfair Display', serif;
+}
+
+.intro_main_poloska{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 20px;
+}
+
+.intro_main_subtitle{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 24px;
+	font-weight: 200;
+}
+
+.intro_main_button{
+	width: 200px;
+	height: 50px;
+	color: white;
+	background-color: black;
+	opacity: 0.5;
+	font-family: 'Alegreya', serif;
+	font-size: 14px;
+	border: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: all .2s linear;
+}
+
+.intro_main_button:hover{
+	opacity: 1;
+}
+
+.intro a{
+	color: white;
+	text-decoration: none;
+}
+
+.second_block{
+	max-width: 1260px;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+}
+
+.second_block_wrapper{
+	width: 100%;
+	height: 760px;
+}
+
+.second_block_leftblock{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	width: 630px;
+	height: 643px;
+    margin-top: 4%;
+}
+
+.second_block_leftblock_suptitle{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Alegreya', serif;
+	color: #A47D5E;
+}
+
+.second_block_leftblock_title{
+	color: #56534C;
+	font-size: 48px;
+	font-family: 'Alegreya', serif;
+}
+
+.second_block_leftblock_subtitle{
+	width: 486px;
+	margin: 0 auto;
+	font-size: 14px;
+	font-family: 'Alegreya', serif;
+	color: #56534C;
+}
+
+.second_block_leftblock_undertitle{
+	color: #56534C;
+	font-size: 24px;
+	font-family: 'Alegreya', serif;
+}
+
+.second_block_leftblock_coocker{
+	width: 370px;
+	height: 75px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.coocker_otz{
+	padding: 3px 22px;
+	border-bottom: 1px solid #D7D5CA;
+	border-top: 1px solid #D7D5CA;
+	color: #56534C;
+	font-size: 24px;
+	font-family: 'Alegreya', serif;
+}
+
+.icon{
+	width: 90px;
+	height: 90px;
+}
+
+.second_block_citata{
+	font-size: 24px;
+	font-family: 'Send Flowers', cursive;
+	color: #A47D5E;
+}
+
+.second_block_rightblock{
+	display: flex;
+	width: 630px;
+	height: 643px;
+    margin-top: 9%;
+}
+
+
+.pictures{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.pictures_top img{
+	margin:10px;
+    width: 290px;
+    height: 250px;
+}
+
+.pictures_top_1 img{
+	margin:10px;
+    width: 290px;
+    height: 250px;
+}
+
+.footer_wrapper{
+	margin: 0 auto;
+	max-width: 1260px;
+	height: 90px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+}
+
+footer{
+	padding: 75px 0;
+}
+
+.span{
+	padding: 28px 19px;
+	border-bottom: 1px solid #D7D5CA;
+	border-top: 1px solid #D7D5CA;
+	color: #56534C;
+	font-size: 14px;
+	font-family: 'Alegreya', serif;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 480px;
+}
+
+.span a{
+	text-decoration: none;
+	margin-left: 34px;
+	color: #56534C;
+}
+
+.footer_wrapper h3{
+	font-size: 30px;
+	font-family: 'Send Flowers', cursive;
+	color: #56534C;
+}
+
+.span2{
+	padding: 28px 19px;
+	border-bottom: 1px solid #D7D5CA;
+	border-top: 1px solid #D7D5CA;
+	color: #56534C;
+	font-size: 14px;
+	font-family: 'Alegreya', serif;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 480px;
+}
+
+.span2 a{
+	text-decoration: none;
+	margin-left: -38px;
+	color: #56534C;
+}
+
+@media screen and (max-width: 1125px){
+	.menucka{
+		display: none;
+	}
+
+	.btnc{
+		display: block;
+	}
+	.header_conteiner{
+		justify-content: space-around;
+	}
+
+	 footer{
+		    margin-top: 376px;
+	}
+
+	.second_block_rightblock{
+		display: none;
+	}
+
+	.second_block_leftblock {
+		width: 100%;
+		height: 919px;
+	}
+
+	.intro{
+		width:  113.7%;
+		height: 933px;
+	}
+
+	.menu__btn {
+		opacity: 1 !important;
+		margin-left: -15%;
+	}
+
+}
+
+
+.btnc{
+	display: none;
+}
+
+/* скрываем чекбокс */
+#menu__toggle {
+  opacity: 0;
+}
+/* стилизуем кнопку */
+.menu__btn {
+  display: flex; /* используем flex для центрирования содержимого */
+  align-items: center;  /* центрируем содержимое кнопки */
+  position: fixed;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  z-index: 1;
+  opacity: 0;
+}
+/* добавляем "гамбургер" */
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #616161;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+
+
+/* контейнер меню */
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  text-align: center;
+  background-color: #ECEFF1;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  color: black !important;
+  opacity: 1 !important;
+}
+/* элементы меню */
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: #333 !important;
+  font-family: 'Roboto', sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.menu__item:hover {
+  background-color: #CFD8DC;
+}
+
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
